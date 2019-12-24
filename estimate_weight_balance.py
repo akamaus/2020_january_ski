@@ -7,12 +7,15 @@ import planner.utils as U
 from members import *
 
 import products as P
+print("Еда.....................")
 food_table = F.food_planning(P.Food,
                              NBreakfast=P.NBreakfast,
                              NDinner=P.NDinner,
                              NLunch=P.NLunch,
                              NSnack=P.NSnack)
 
+print("------------------------")
+print("Снаряжение..............")
 import stuff as S
 stuff_table = E.equipment_planning(S.SharedEquipment); stuff_table
 
