@@ -1,11 +1,12 @@
-from members import *
-
-from .person import Person
-
 import numpy as np
 import pandas as pd
 import datetime
 from collections import Counter
+
+from .person import Person
+from .utils import print_overweight
+
+from members import *
 
 
 def food_planning(food, NBreakfast, NDinner, NLunch, NSnack):
@@ -36,7 +37,7 @@ def food_planning(food, NBreakfast, NDinner, NLunch, NSnack):
                     'weight': weight})
 
         else:
-            if isinstance(row[3], P.Person):
+            if isinstance(row[3], Person):
                 member = row[3]
                 assert member.name in MembersList
                 member.food.append({'kind' : 'food', 'packing_weight': portion_weight,
@@ -81,20 +82,8 @@ def food_planning(food, NBreakfast, NDinner, NLunch, NSnack):
     print("Средний вес на мужчину: %.1f" % avg_man_weight)
     print("Средний вес на женщину: %.1f" % avg_woman_weight)
     print("Вес на человека в день: %.1f" % (total_weight / NMembers / ((NBreakfast + NDinner + NSnack + NLunch) / 4)))
-
-    overweight = {}
-    for name, member in sorted(Members.items()):
-        w = member.food_weight()
-        if member.male:
-            d = w - avg_man_weight
-        else:
-            d = w - avg_woman_weight
-        overweight[name] = d
-
-    worst_overweights = sorted(overweight.items(), key=lambda x:abs(x[1]), reverse=True)
-    print('\nПеревес:')
-    for n, d in worst_overweights:
-        print("%s %.0f" % (n, d))
+    print()
+    print_overweight(Members, P.Person.food_weight, avg_man_weight, WomanFoodWeightNorm, caption='Перевес по еде')
 
     print("\nОстаток: %.1f" % (total_weight - cur_weight))
 
