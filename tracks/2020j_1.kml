@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>2020j_1</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					47.864259,58.175508
+					47.861341,58.164672
+					47.855933,58.158127
+					47.862285,58.152956
+					47.862370,58.148879
+					47.867692,58.145574
+					47.864602,58.140854
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+	</kml>
