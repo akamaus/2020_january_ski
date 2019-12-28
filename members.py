@@ -3,7 +3,6 @@ import planner.person as P
 _women_str = \
 """
 Лаврищева
-Карпова
 Ткачева
 """
 
