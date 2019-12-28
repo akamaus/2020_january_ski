@@ -24,4 +24,4 @@ avg_men_weight = np.mean([m.food_weight() + m.equipment_weight() for m in Member
 
 U.print_overweight(Members, lambda m: m.food_weight() + m.equipment_weight(),
                    avg_men_weight,
-                   WomanFoodWeightNorm + WomanSharedEquipWeightNorm );
+                   WomanFoodWeightNorm + WomanSharedEquipWeightNorm);

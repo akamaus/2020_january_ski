@@ -11,6 +11,9 @@ class Person(object):
     def equipment_weight(self):
         return sum(e['weight'] for e in self.equipment)
 
+    def total_weight(self):
+        return self.food_weight() + self.equipment_weight
+
     def __repr__(self):
         return f"<Person: name: {self.name}>"
 

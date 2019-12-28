@@ -16,7 +16,7 @@ def print_overweight(members, get_weight, man_weight_norm, woman_weight_norm, ca
         caption = 'Перевес'
     print('*** %s:' % caption)
     for n, d in worst_overweights:
-        print("%-12s %.0f" % (n, d))
+        print("%-12s %5.0f %.0f" % (n, get_weight(members[n]), d))
 
     return overweight
 
