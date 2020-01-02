@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<trk>
+		<name>jan02</name>
+		<trkseg>
+			<trkpt lat="58.140532" lon="47.632130"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.140896" lon="47.630456"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.142441" lon="47.631186"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.144995" lon="47.630928"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>
