@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<trk>
+		<name>jan09</name>
+		<trkseg>
+			<trkpt lat="58.168920" lon="47.571040"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.169929" lon="47.572177"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.170701" lon="47.572198"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.171538" lon="47.571748"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.172310" lon="47.572499"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.173040" lon="47.572799"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.174306" lon="47.572499"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.174928" lon="47.571533"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.176323" lon="47.567199"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.177117" lon="47.564323"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.177611" lon="47.562950"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>
